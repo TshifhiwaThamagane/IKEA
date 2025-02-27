@@ -1,55 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
-    <meta name = "description"   content = "This website will help you contact us">
-    <meta name = "keywords" content = "exclusive furniture">
-    <meta name ="author" content ="Tshifhiwa Thamagane x Tshepang Ramohapi">
+    <meta name="description" content="This website will help you contact us">
+    <meta name="keywords" content="exclusive furniture">
+    <meta name="author" content="Tshifhiwa Thamagane x Tshepang Ramohapi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Bedroom Section</title>
+    
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="lightbox.min.css">
     <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
-    
-    <title>Bedroom Sextion</title>
 
     <script> 
-        function displayDate(){
-    document.getElementById("showDate").innerHTML=
-    Date();
-    
+        function displayDate() {
+            document.getElementById("showDate").innerHTML = Date();
         }
     </script>
-</head>
+
     <style>
-       
-       header {
-            background-color:#bab554;
+        header {
+            background-color: #bab554;
             color: white;
             padding: 20px 0;
             text-align: center;
         }
+
         nav {
             background-color: rgb(0, 0, 0);
-            padding: 30px 0;
+            padding: 20px 0;
+            text-align: center;
         }
+
         nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
-            text-align: center;
         }
+
         nav ul li {
             display: inline;
             margin: 0 15px;
         }
+
         nav ul li a {
             color: white;
             text-decoration: none;
             font-size: 16px;
         }
+
         .hero {
-          
             background-size: cover;
             background-position: center;
             height: 400px;
@@ -59,32 +60,63 @@
             align-items: center;
             text-align: center;
         }
-        .hero h1, .hero h2 {
+
+        .hero h1 {
             font-size: 50px;
-
-
         }
+
         .content {
             padding: 20px;
             max-width: 1200px;
             margin: auto;
             text-align: center;
         }
+
         .partners img {
             width: 150px;
             margin: 10px;
         }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            width: 300px;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
         footer {
-            background-color:#bab554;
+            background-color: #bab554;
             color: white;
             text-align: center;
             padding: 20px 0;
             margin-top: 20px;
         }
+
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
     </style>
 </head>
 
- 
+<body>
     <!-- Header -->
     <header>
         <h1>K&K ITALIAN CRAFT FURNITURE</h1>
@@ -92,147 +124,104 @@
     </header>
     
     <!-- Navigation -->
-        <nav>
-    <ul>
-        <li><b><a href="Homepage.html">Home</a></b></li>
-        <li><b><a href="Contact Us.html">Contact Us</a></b></li>  
-    </ul>
+    <nav>
+        <ul>
+            <li><b><a href="Homepage.html">Home</a></b></li>
+            <li><b><a href="Contact Us.html">Contact Us</a></b></li>  
+        </ul>
     </nav>
 
-
-    <body><video autoplay muted loop id="myVideo" height="855">
+    <!-- Background Video -->
+    <video autoplay muted loop id="myVideo">
         <source src="Hate.mp4" type="video/mp4">
-       
-      </video>
-      <div class="content">
-        
-      </div>
+        Your browser does not support the video tag.
+    </video>
 
     <!-- Hero Section -->
-    <div class="hero" id="home">
-        <center><div class = "Welcome">
-            <div class = "Welcome">
-    <div class="content">
-                <h1>Welcome to the Bedroom Section</h1>
-                <h1>Scroll to see what your style is!</h1
-                <p>We have sell furniture from around the world making our furniture exclusive!</p>
-   </div
+    <div class="hero">
+        <div class="content">
+            <h1>Welcome to the Bedroom Section</h1>
+            <h2>Scroll to see what your style is!</h2>
+            <p>We sell furniture from around the world, making our collection exclusive!</p>
+        </div>
     </div>
-</div>
-</div>
-</div>
-</body>
 
-<br></br>
+    <br><br>
 
-<br></br>
-
-
-
-
-<div class="Section">
-    <center><img src = "bedroom.jpg" height="30" width="300"> <h1>Bedroom Section</h1></a></center>
+    <!-- Bedroom Section -->
+    <div class="section">
+        <center>
+            <img src="bedroom.jpg" height="300" width="300">
+            <h1>Bedroom Section</h1>
+        </center>
     </div>
     <hr width="400">
-    <center><h2 class = seletc > Select The Image To View</h2></center>
-    <div class = "About">
-    <div class = "card-container">
-    <div class = "card">
-      <a href="sss.jpg" data-lightbox="White Bed"><img class ="img_ww" src = "sss.jpg" width = "30%" height="30%"></a>
-      
-      <div class ="card-content">
-      <h3> White Bed </h3>
-      <p> The wavy, contoured marble top exudes sophistication with its polished finish in warm beige and cream tones.
     
-    </div>
-    </div>
-    
-    
-    
-    <div class = "card">
-      <a href="ddd.jpg" data-lightbox="Maroon Bed"><img class ="img_ww" src = "ddd.jpg" width = "30%" height="30%"></a>
-      <div class ="card-content">
-      <h3>Maroon Bed</h3>
-      <p>Step into a world of luxury and sophistication with this exquisite furniture set, designed to make a lasting impression. 
-          
-    
-    </div>
-    </div>
-    
-    
-    
-    
-    <div class = "card">
-      <a href="fff.jpg" data-lightbox="Royal White"><img class ="img_ww" src = "fff.jpg" width = "30%" height="30%"></a>
-      <div class ="card-content">
-      <h3>Royal white</h3>
-      <p>Transform your dining space into a palace of luxury with this stunning, handcrafted dining set and display cabinet. 
-          </p>
-    
-    </div>
-    </div>
-    
-    
-    <div class = "card">
-    <a href="ggg.jpg" data-lightbox="Royalty bed"><img class ="img_ww" src = "ggg.jpg" width = "30%" height="40%"></a>
-    <div class ="card-content">
-    <h3>Royalty Bed</h3>
-    <p>Experience the epitome of elegance and power with this majestic throne chair—a true masterpiece designed to command attention and admiration. 
-      
-      </p>
-    
-    </div>
-    </div>
-    
-    
-    
-    
-    
-    <div class = "card">
-    <a href="hhh.jpg" data-lightbox="Gold Bed"><img class ="img_ww" src = "hhh.jpg" width = "30%" height="40%"></a>
-    <div class ="card-content">
-    <h3>Gold Bed</h3>
-    <p>Step into the world of luxury and sophistication with this exquisite curved sectional sofa, a masterpiece that blends comfort, style, and grandeur to transform any living space. 
-      </p>
-    
-    </div>
-    </div>
-    
-    
-    
-    
-    
-    <div class = "card">
-    <a href="jjj.jpg" data-lightbox="Cream Bed"><img class ="img_ww" src = "jjj.jpg" width = "30%" height="40%"></a>
-    <div class ="card-content">
-    <h3>Cream Bed</h3>
-    <p>This exquisite round sofa, designed to be the centerpiece of any luxurious living space. Crafted with an elegant, plush cream fabric, this sofa offers both comfort and sophistication. 
-    
-     
-      </p>
-    
-    </div>
-    </div>
-    
-    </div>
-   
-    
-    </div>
-   
-    
+    <center><h2>Select An Image To View</h2></center>
 
+    <div class="card-container">
+        <!-- White Bed -->
+        <div class="card">
+            <a href="sss.jpg" data-lightbox="White Bed">
+                <img src="sss.jpg" alt="White Bed">
+            </a>
+            <h3>White Bed</h3>
+            <p>The wavy, contoured marble top exudes sophistication with its polished finish in warm beige and cream tones.</p>
+        </div>
 
+        <!-- Maroon Bed -->
+        <div class="card">
+            <a href="ddd.jpg" data-lightbox="Maroon Bed">
+                <img src="ddd.jpg" alt="Maroon Bed">
+            </a>
+            <h3>Maroon Bed</h3>
+            <p>Step into a world of luxury and sophistication with this exquisite furniture set, designed to make a lasting impression.</p>
+        </div>
 
+        <!-- Royal White -->
+        <div class="card">
+            <a href="fff.jpg" data-lightbox="Royal White">
+                <img src="fff.jpg" alt="Royal White">
+            </a>
+            <h3>Royal White</h3>
+            <p>Transform your bedroom into a palace of luxury with this stunning, handcrafted bed.</p>
+        </div>
 
+        <!-- Royalty Bed -->
+        <div class="card">
+            <a href="ggg.jpg" data-lightbox="Royalty Bed">
+                <img src="ggg.jpg" alt="Royalty Bed">
+            </a>
+            <h3>Royalty Bed</h3>
+            <p>Experience the epitome of elegance and power with this majestic throne-like bed.</p>
+        </div>
 
+        <!-- Gold Bed -->
+        <div class="card">
+            <a href="hhh.jpg" data-lightbox="Gold Bed">
+                <img src="hhh.jpg" alt="Gold Bed">
+            </a>
+            <h3>Gold Bed</h3>
+            <p>Step into a world of luxury and sophistication with this exquisite gold-themed bed.</p>
+        </div>
 
-<!-- Footer -->
-<footer>
-    <p>&copy; 2025 IKEA FURNITURES - K&K ITALIAN CRAFT FURNITURE | All Rights Reserved</p>
-    <p><a href="Contact Us.html">Back to top</a></p>
-    <p><a href="Homepage.html">Go Home</a></p>
-</footer>
+        <!-- Cream Bed -->
+        <div class="card">
+            <a href="jjj.jpg" data-lightbox="Cream Bed">
+                <img src="jjj.jpg" alt="Cream Bed">
+            </a>
+            <h3>Cream Bed</h3>
+            <p>This plush cream bed offers both comfort and sophistication.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 IKEA FURNITURES - K&K ITALIAN CRAFT FURNITURE | All Rights Reserved</p>
+        <p><a href="Contact Us.html">Back to top</a> | <a href="Homepage.html">Go Home</a></p>
+    </footer>
 </body>
+</html>
 
 
 

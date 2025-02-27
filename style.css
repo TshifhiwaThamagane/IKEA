@@ -1,24 +1,5 @@
 
 /* General Desktop Styling */
-.header {
-    height: 80px;
-}
-
-.header {
-    position: relative;
-    z-index: 1000;
-    background: white; /* Ensure it's visible */
-}
-.content {
-    margin-top: 100px; /* Adjust as needed */
-}
-body {
-    padding-top: 80px; /* Match the header height */
-}
-.header {
-    overflow: hidden;
-}
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;

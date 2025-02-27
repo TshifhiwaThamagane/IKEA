@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
-    <meta name="description" content="This website offers the most exclusive furniture">
-    <meta name="keywords" content="Furniture, Couch, Tables, Luxury Furniture">
-    <meta name="author" content="Tshifhiwa Thamagane, Tshepang Ramohapi">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="lightbox.min.css">
-    <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
-    <title>Exclusive Furniture</title>
+    <meta name = "description"   content = "This website will help you view the Dining Section">
+    <meta name = "keywords" content = "exclusive furniture">
+    <meta name ="author" content ="Tshifhiwa Thamagane">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lounge Sextion</title>
+
     <script> 
-        function displayDate() {
-            document.getElementById("showDate").innerHTML = new Date();
+        function displayDate(){
+    document.getElementById("showDate").innerHTML=
+    Date();
+    
         }
     </script>
+</head>
     <style>
-        header {
-            background-color: #bab554;
+       
+       header {
+            background-color:#bab554;
             color: white;
             padding: 20px 0;
             text-align: center;
         }
         nav {
-            background-color: black;
-            padding: 15px 0;
-            text-align: center;
+            background-color: rgb(0, 0, 0);
+            padding: 30px 0;
         }
         nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
+            text-align: center;
         }
         nav ul li {
             display: inline;
@@ -42,6 +45,7 @@
             font-size: 16px;
         }
         .hero {
+          
             background-size: cover;
             background-position: center;
             height: 400px;
@@ -51,21 +55,38 @@
             align-items: center;
             text-align: center;
         }
-        .hero h1, .hero h2 {
+        .hero h1 {
             font-size: 50px;
+        }
+            .hero h2 {
+            font-size: 50px;
+
+
         }
         .content {
             padding: 20px;
             max-width: 1200px;
             margin: auto;
-            text-align: center;
+        }
+        .partners img {
+            width: 150px;
+            margin: 10px;
         }
         footer {
-            background-color: #bab554;
+            background-color:#bab554;
             color: white;
             text-align: center;
             padding: 20px 0;
             margin-top: 20px;
+        }
+        .donation-button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -73,7 +94,7 @@
  
     <!-- Header -->
     <header>
-        <h1>IKEA FURNITURE - K&K ITALIAN CRAF</h1>
+        <h1>IKEA FURNITURE - K&K ITALIAN CRAFS</h1>
         <p>Come get your finest and exclusive furniture with us!</p>
     </header>
     
@@ -86,8 +107,7 @@
     </nav>
 
 
-    <body>
-        <video autoplay muted loop id="myVideo" height="855">
+    <body><video autoplay muted loop id="myVideo" height="855">
         <source src="Hate.mp4" type="video/mp4">
        
       </video>

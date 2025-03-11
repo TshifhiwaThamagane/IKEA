@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.ikeafurniture.co.za/sitemap.xml
+
+User-agent: *
+Allow: /
+
+User-agent: BadBot
+Disallow: /
